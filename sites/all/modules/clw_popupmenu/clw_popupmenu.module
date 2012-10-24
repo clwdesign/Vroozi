@@ -1,0 +1,11 @@
+<?php
+function clw_popupmenu_init() {
+	drupal_add_js('sites/all/modules/clw_popupmenu/js/clw_popupmenu.js');
+	drupal_add_css('sites/all/modules/clw_popupmenu/clw_popupmenu.css', array(
+		'type' => 'file', 
+		'every_page' => TRUE,
+		'media' => 'all'
+		)
+	);
+}
+?>

@@ -1,0 +1,3 @@
+name = CLW Custom
+description = Custom functions such as form alters, etc.
+core = 7.x

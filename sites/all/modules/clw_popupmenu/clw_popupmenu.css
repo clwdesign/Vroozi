@@ -1,0 +1,59 @@
+/*=== Popup Menu ===*/
+
+#footer #block-system-user-menu, #popup-menu-button {
+	position: fixed;
+	z-index: 9999;
+	right: 0;
+	top: 100px;
+}
+	#footer #block-system-user-menu.block {
+		width: 170px;
+		right: -250px;
+		top: 150px;
+		padding: 20px;
+		background-color: #000;
+		color: #FFF;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+		#footer #block-system-user-menu .content a, #footer #block-system-user-menu .title, #footer #block-system-user-menu h3 {
+			color: #FFF;
+		}
+#footer #block-system-user-menu h2 {
+	font-weight: bold;
+	font-size: 20px;
+}
+#footer #block-system-user-menu h2, #footer #block-system-user-menu h3 {
+	margin: 5px 0;
+}
+#footer #block-system-user-menu ul.menu, #footer #block-system-user-menu li.leaf {
+	background-image: none;
+	list-style: none inside none;
+	margin: 0;
+	padding: 0
+}
+	#footer #block-system-user-menu li.leaf {
+		padding-bottom: 7px;
+	}
+	#footer #block-system-user-menu li a, #footer #block-system-user-menu li.last a, #footer #block-system-user-menu li.first a {
+		font-size: 14px;
+		padding: 0;
+		float: none;
+	}
+#footer #popup-menu-button a {
+	display: block;
+	background: #21c700 url(http://chrislavigne.com/images/button-menu.png) no-repeat 0 0 scroll;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 2em;
+	padding: 0 40px 0 60px;
+	cursor: pointer;
+	text-decoration: none;
+}
+	#footer #popup-menu-button a:hover {
+		background-position: 0 -31px;
+	}
+	#footer #popup-menu-button a:active {
+		background-position: 0 -62px;
+	}

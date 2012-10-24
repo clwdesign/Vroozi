@@ -1,0 +1,46 @@
+/**
+ * @file
+ * Block Styling
+ */
+
+/*== Instruction Manual Menu ==*/
+
+.book-block-menu li.first a {
+	background: #21c700 url(http://chrislavigne.com/images/button-instructions.png) no-repeat 0 0 scroll;
+	padding: 5px 10px 4px 42px;
+	font-weight: bold;
+	font-size: 1.143em;
+	color: #FFF;
+	text-decoration: none;
+	line-height: 2.2em;
+}
+	.book-block-menu li.first a:hover {
+		background-position: 0 -31px;
+	}
+	.book-block-menu li.first a:active {
+		background-position: 0 -62px;
+	}
+
+
+.block { /* Block wrapper */
+  margin-bottom: 1.5em;
+}
+ul.menu, ul.menu li.leaf {
+	list-style: none outside none;
+}
+ul.menu {
+	margin: 0;
+	padding: 0;
+}
+
+/*=== Header ===*/
+#header .block {
+	margin: 0;
+}
+#block-system-main-menu li {
+	float: left;
+}
+
+/*=== Sidebar ===*/
+
+/*=== Footer===*/

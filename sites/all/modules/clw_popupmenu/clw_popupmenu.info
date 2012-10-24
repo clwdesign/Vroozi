@@ -1,0 +1,5 @@
+name = CLW Popup Menu
+description = Creates Popup Menu for admin users
+package = CLW
+version = VERSION
+core = 7.x
